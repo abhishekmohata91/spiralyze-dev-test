@@ -23,7 +23,6 @@ $(document).ready(function() {
         productDT= $('#productTable').DataTable({ 
             data,
             destroy: true,
-            responsive: true,
             columns: [
                 {
                     targets: 0,
